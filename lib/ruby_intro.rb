@@ -1,6 +1,7 @@
 # When done, submit this entire file to the autograder.
 
 # Part 1
+# Below code takes an array of integers as an argument and returns the sum of its elements.
 
 def sum(in_array)
   # YOUR CODE HERE
@@ -14,6 +15,8 @@ def sum(in_array)
 
   return sumr
 end
+
+#Below code takes an array of integers as an argument and returns the sum of its two largest elements. 
 
 def max_2_sum(int_array)
   # YOUR CODE HERE
@@ -30,6 +33,8 @@ def max_2_sum(int_array)
   return heyr
 end
  
+# Belwo code takes an array of integers and an additional integer, n, as arguments and returns true if any two elements in the array of integers sum to n.
+
 def sum_to_n?(int_array,n)
   # YOUR CODE HERE
   return false if int_array.length == 0 
@@ -42,18 +47,22 @@ end
 
 # Part 2
 
+# Below code takes a string representing a name and returns the string "Hello, " concatenated with the name.
+
 def hello(name)
   # YOUR CODE HERE
    "Hello, #{name}"
   
 end
 
-
+#Below code takes a string and returns true if it starts with a consonant and false otherwise.
 
 def starts_with_consonant?(s)
   # YOUR CODE HERE
     !!(s[0] =~ /[qzyxwvtsrbcdfghjklmnp]+/i)
 end
+
+#Below code takes a string and returns true if the string represents a binary number that is a multiple of 4.
 
 def binary_multiple_of_4?(s)
   # YOUR CODE HERE
@@ -65,6 +74,7 @@ def binary_multiple_of_4?(s)
 end
 
 # Part 3
+
 
 class BookInStock
 # YOUR CODE HERE
