@@ -17,12 +17,19 @@ end
 
 def max_2_sum(int_array)
   # YOUR CODE HERE
-  return 0 if int_array.length == 0
-  return int_array[0] if int_array.length == 1
+  heyr=0
+  if int_array.length == 0
+     heyr=0
+     return heyr
+  elsif int_array.length == 1
+     heyr=int_array[0]
+     return heyr
+  end
   int_array.sort!.reverse!
-  return int_array[0] + int_array[1]  
+  heyr= int_array[0] + int_array[1]  
+  return heyr
 end
-
+ 
 def sum_to_n?(int_array,n)
   # YOUR CODE HERE
   return false if int_array.length == 0 
@@ -32,13 +39,16 @@ def sum_to_n?(int_array,n)
   return false # default return false
 end
 
+
 # Part 2
 
 def hello(name)
   # YOUR CODE HERE
-  "Hello, #{name}"
+   "Hello, #{name}"
   
 end
+
+
 
 def starts_with_consonant?(s)
   # YOUR CODE HERE
