@@ -4,9 +4,15 @@
 
 def sum(in_array)
   # YOUR CODE HERE
-  
-   return 0 if in_array.length == 0
-  return in_array.reduce(:+)
+  sumr=0
+   if in_array.length == 0
+     sumr=0
+   elsif 
+     #Enumerable
+     sumr= in_array.reduce(:+)
+   end
+
+  return sumr
 end
 
 def max_2_sum(int_array)
