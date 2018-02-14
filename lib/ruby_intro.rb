@@ -52,7 +52,7 @@ end
 
 def starts_with_consonant?(s)
   # YOUR CODE HERE
-    !!(s[0] =~ /[qzyxwvtsrpbcdfghjklmnp]+/i)
+    !!(s[0] =~ /[qzyxwvtsrbcdfghjklmnp]+/i)
 end
 
 def binary_multiple_of_4?(s)
